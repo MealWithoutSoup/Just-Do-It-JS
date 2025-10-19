@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body class="min-h-screen overflow-hidden">
+    <!-- Weather - Top Right -->
+    <div id="weather-container" class="fixed top-8 right-8 z-20"></div>
+
+    <!-- Main Container -->
+    <div class="main-container min-h-screen flex flex-col items-center justify-center relative z-10">
+
+      <!-- Clock - Center -->
+      <div class="clock-container mb-8 fade-in">
+        <h2 id="clock" class="text-8xl md:text-9xl font-bold text-white drop-shadow-2xl tracking-tight">00:00:00</h2>
+      </div>
+
+      <!-- Login Form / Greeting - Below Clock -->
+      <div class="greeting-container mb-12 fade-in-delay-1">
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="Type your name here"
+            class="input-field"
+          />
+        </form>
+        <h1 id="greeting" class="hidden text-4xl md:text-5xl font-light text-white drop-shadow-2xl text-center"></h1>
+      </div>
+
+      <!-- Todo Form - Below Greeting -->
+      <div class="todo-container fade-in-delay-2">
+        <form id="todo-form" class="mb-6">
+          <input
+            type="text"
+            placeholder="Write a To Do here"
+            required
+            class="input-field"
+          />
+        </form>
+
+        <!-- Todo List -->
+        <ul id="todo-list" class="todo-list"></ul>
+      </div>
+
+      <!-- Quote - Bottom -->
+      <div id="quote" class="quote-container fixed bottom-8 left-1/2 transform -translate-x-1/2 text-center fade-in-delay-3">
+        <span class="block text-lg md:text-xl text-white font-light mb-2 drop-shadow-md"></span>
+        <span class="block text-sm md:text-base text-white/80 drop-shadow-md"></span>
+      </div>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
