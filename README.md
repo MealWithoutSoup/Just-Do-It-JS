@@ -5,6 +5,8 @@ Vanilla JavaScript로 만든 To-Do List Web Application
 ![Momentum App](https://img.shields.io/badge/Vanilla-JavaScript-yellow?style=for-the-badge&logo=javascript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?style=for-the-badge&logo=tailwindcss)
 
+![메인 페이지](./ToDoListImage.png)
+
 ## 🌐 배포
 
 **👉 [https://mealwithoutsoup.github.io/Just-Do-It-JS/](https://mealwithoutsoup.github.io/Just-Do-It-JS/)**
