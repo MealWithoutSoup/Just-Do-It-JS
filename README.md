@@ -1,2 +1,2 @@
 # Just-Do-It-JS
-To-To-List-With-VanillaJS
+To-Do-List-With-VanillaJS
