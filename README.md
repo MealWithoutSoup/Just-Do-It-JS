@@ -5,6 +5,10 @@ Vanilla JavaScript로 만든 To-Do List Web Application
 ![Momentum App](https://img.shields.io/badge/Vanilla-JavaScript-yellow?style=for-the-badge&logo=javascript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?style=for-the-badge&logo=tailwindcss)
 
+## 🌐 배포
+
+**👉 [https://mealwithoutsoup.github.io/Just-Do-It-JS/](https://mealwithoutsoup.github.io/Just-Do-It-JS/)**
+
 ## 🎯 주요 기능
 
 ### ⏰ 실시간 시계
@@ -224,8 +228,5 @@ cd Just-Do-It-JS
    - 또는 Live Server 확장 프로그램 사용
 
 3. 위치 정보 접근 허용 (날씨 정보 표시를 위해)
-
-## 🌐 배포
-GitHub Pages를 통한 베포
 
 **Made with ❤️ using Vanilla JavaScript**
